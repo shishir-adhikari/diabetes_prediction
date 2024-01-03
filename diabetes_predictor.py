@@ -4,7 +4,7 @@ import streamlit as st
 
 
 # loading the saved model
-diabetes_model = pickle.load(open('./diabetes_model.sav', 'rb'))
+diabetes_model = pickle.load(open('C:/Users/shish/OneDrive/Desktop/Projects/Diabetes/diabetes_model.sav', 'rb'))
 
 # Set the title of the app
 st.title("Diabetes Prediction App")
